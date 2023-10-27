@@ -1,4 +1,4 @@
-import { Pessoa } from "../model/Pessoa";
+/*import { Pessoa } from "../model/Pessoa";
 let pessoa = new Pessoa ('Joao','11111111',new Date(2000,9,15),
 '00000000000','rua numero 1',170,70 ); 
 
@@ -24,4 +24,7 @@ pessoa.mostraPessoa();
 pessoa2.mostraPessoa();
 pessoa3.mostraPessoa();
 
-console.log("\n");
+console.log("\n");*/
+
+import 
+

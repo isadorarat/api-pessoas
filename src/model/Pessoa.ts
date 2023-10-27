@@ -100,6 +100,10 @@ export class Pessoa {
     public comerPrato(prato:string){
         console.log(`${this.nome} esta comendo... ${prato}`);
     }
+    /**CRUD */
+    public cadastroPessoa (pessoa: Pessoa) {
+        console.log ('Pessoa cadastrada com sucesso');
+    }
 
 }
 
