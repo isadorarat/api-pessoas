@@ -67,7 +67,7 @@ export class Pessoa {
         this.peso = _peso;
     }
 
-    public mostraPessoa(){
+    public mostraPessoa() {
         console.log(`Nome: ${this.nome}
         CPF:${this.cpf}
         Data:${this.data_nascimento}
@@ -85,24 +85,24 @@ export class Pessoa {
         //logca de ngc
         console.log(`${this.nome} falar:${_frase}`);
     }
-    public andar(){
+    public andar() {
         console.log(`${this.nome} esta andando...`);
     }
-    public andarQuilometros (quilometros:number){
+    public andarQuilometros(quilometros: number) {
         setTimeout(() => {
-            console.log (`${this.nome}caminhou ${quilometros} quilometros`);
-    }, 4000);
-}
+            console.log(`${this.nome}caminhou ${quilometros} quilometros`);
+        }, 4000);
+    }
 
-    public comer (){
+    public comer() {
         console.log(`${this.nome} esta comendo...`);
     }
-    public comerPrato(prato:string){
+    public comerPrato(prato: string) {
         console.log(`${this.nome} esta comendo... ${prato}`);
     }
     /**CRUD */
-    public cadastroPessoa (pessoa: Pessoa) {
-        console.log ('Pessoa cadastrada com sucesso');
+    public cadastroPessoa(pessoa: Pessoa) {
+        console.log('Pessoa cadastrada com sucesso');
     }
 
 }
