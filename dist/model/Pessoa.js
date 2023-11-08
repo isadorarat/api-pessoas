@@ -65,11 +65,29 @@ class Pessoa {
     //implementar os metodos
     falar() {
         //logica de negocio
-        console.log(`${this.nome}está falando`);
+        console.log(`${this.nome} está falando`);
     }
     falarFrase(_frase) {
         //logca de ngc
         console.log(`${this.nome} falar:${_frase}`);
+    }
+    andar() {
+        console.log(`${this.nome} esta andando...`);
+    }
+    andarQuilometros(quilometros) {
+        setTimeout(() => {
+            console.log(`${this.nome}caminhou ${quilometros} quilometros`);
+        }, 4000);
+    }
+    comer() {
+        console.log(`${this.nome} esta comendo...`);
+    }
+    comerPrato(prato) {
+        console.log(`${this.nome} esta comendo... ${prato}`);
+    }
+    /**CRUD */
+    cadastroPessoa(pessoa) {
+        console.log('Pessoa cadastrada com sucesso');
     }
 }
 exports.Pessoa = Pessoa;
